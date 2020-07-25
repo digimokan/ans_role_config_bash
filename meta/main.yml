@@ -16,5 +16,5 @@ dependencies:
   - src: https://github.com/digimokan/ans-role-config-shell
     version: master
     vars:
-      bash_user_name: "{{ user_name }}"
+      user_name: "{{ user_name }}"
 

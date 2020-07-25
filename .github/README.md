@@ -67,7 +67,7 @@ See the role `defaults` file, for overridable vars:
 
 Define these _required_ vars for the role:
 
-  * `bash_user_name`: user to configure bash for
+  * `user_name`: user to configure bash for
 
 ## Role Dependencies
 
