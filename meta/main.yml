@@ -15,4 +15,6 @@ galaxy_info:
 dependencies:
   - src: https://github.com/digimokan/ans-role-config-shell
     version: master
+    vars:
+      user_name: "{{ user_name }}"
 
