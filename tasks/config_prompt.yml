@@ -1,5 +1,7 @@
 - name: "Configure bash prompt config lines"
-  include_tasks: add_config_lines.yml
+  include_role:
+    name: ans-role-config-shell
+    tasks_from: add_config_lines.yml
   vars:
     description: "shell prompt colors and text"
     config_lines: |
