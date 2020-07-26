@@ -1,0 +1,16 @@
+- name: "Configure bash history behavior"
+  include_role:
+    name: ans-role-config-shell
+    tasks_from: inc/add_bash_interactive_lines.yml
+  vars:
+    description: "shell history behavior"
+    config_lines: |
+      # max size of history in-memory:
+      export HISTSIZE={{ num_history_lines }}
+      # max size of history save-file:
+      export HISTFILESIZE={{ num_history_lines }}
+      # on startup/exit read or append to history file:
+      shopt -s histappend
+      # no store duplicate cmds, or cmds with leading space:
+      export HISTCONTROL=ignoreboth
+

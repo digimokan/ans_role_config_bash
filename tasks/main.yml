@@ -4,3 +4,6 @@
 - name: "Configure bash prompt"
   include_tasks: config_prompt.yml
 
+- name: "Configure bash history"
+  include_tasks: config_history.yml
+
