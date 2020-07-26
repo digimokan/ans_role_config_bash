@@ -1,5 +1,5 @@
-# - name: "Run all roles defined as dependencies"
-#   include_tasks: run_dep_roles.yml
+- name: "Run all roles defined as dependencies"
+  include_tasks: run_dep_roles.yml
 
 - name: "Configure bash prompt"
   include_tasks: config_prompt.yml

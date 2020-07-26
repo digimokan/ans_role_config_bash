@@ -1,4 +1,5 @@
 - name: "Run config-shell role as dependency"
   include_role:
     name: ans-role-config-shell
+    allow_duplicates: no
 
