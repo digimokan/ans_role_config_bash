@@ -17,4 +17,5 @@ dependencies:
     version: master
     tags:
       - never
+  - role: ans-role-config-shell
 
