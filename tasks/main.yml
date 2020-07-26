@@ -1,6 +1,5 @@
 - name: "Run dependency-role: ans-role-config-shell"
   include_tasks: run_config_shell_role.yml
-  when: ans_role_config_shell_"{{ user_name }}"_role_was_run is not defined
 
 - name: "Configure bash prompt"
   include_tasks: config_prompt.yml
