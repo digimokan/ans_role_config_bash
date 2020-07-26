@@ -1,0 +1,4 @@
+- name: "Run config-shell role for {{ user_name }}"
+  include_role:
+    name: ans-role-config-shell
+

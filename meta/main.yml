@@ -12,12 +12,9 @@ galaxy_info:
     - shell
     - bash
 
-allow_duplicates: false
-
 dependencies:
   - src: https://github.com/digimokan/ans-role-config-shell
     version: master
     tags:
       - never
-  - role: ans-role-config-shell
 
