@@ -71,9 +71,7 @@ Define these _required_ vars for the role:
 
 ## Role Dependencies
 
-See the role `meta` file, for external roles that this role depends on:
-
-  * [meta/main.yml](../meta/main.yml)
+* [ans-role-config-shell](https://github.com/digimokan/ans-role-config-shell)
 
 ## Contributing
 
