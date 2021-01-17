@@ -1,8 +1,8 @@
-# ans-role-config-bash
+# ans_role_config_bash
 
 Ansible role to configure bash for interactive use.
 
-[![Release](https://img.shields.io/github/release/digimokan/ans-role-config-bash.svg?label=release)](https://github.com/digimokan/ans-role-config-bash/releases/latest "Latest Release Notes")
+[![Release](https://img.shields.io/github/release/digimokan/ans_role_config_bash.svg?label=release)](https://github.com/digimokan/ans_role_config_bash/releases/latest "Latest Release Notes")
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?label=license)](LICENSE.md "Project License")
 
 ## Table Of Contents
@@ -32,9 +32,7 @@ Ansible role to configure bash for interactive use.
 
    ```yaml
    # requirements.yml
-   - src: https://github.com/digimokan/ans-role-config-bash
-     version: master
-     name: config-bash
+   - src: https://github.com/digimokan/ans_role_config_bash
    ```
 
 2. From the project root directory, install/download the role:
@@ -54,7 +52,7 @@ Ansible role to configure bash for interactive use.
      tasks:
        - name: "Set up bash for interactive use"
          include_role:
-           name: config-bash
+           name: ans_role_config_bash
          vars:
            user_name: "admin"
    ```
@@ -71,12 +69,12 @@ Define these _required_ vars for the role:
 
 ## Role Dependencies
 
-* [ans-role-config-shell](https://github.com/digimokan/ans-role-config-shell)
+* [ans_role_config_shell](https://github.com/digimokan/ans_role_config_shell)
 
 ## Contributing
 
 * Feel free to report a bug or propose a feature by opening a new
-  [Issue](https://github.com/digimokan/ans-role-config-bash/issues).
+  [Issue](https://github.com/digimokan/ans_role_config_bash/issues).
 * Follow the project's [Contributing](CONTRIBUTING.md) guidelines.
 * Respect the project's [Code Of Conduct](CODE_OF_CONDUCT.md).
 
