@@ -1,6 +1,6 @@
 - name: "Configure bash prompt config lines"
   include_role:
-    name: ans-role-config-shell
+    name: ans_role_config_shell
     tasks_from: inc/add_bash_interactive_lines.yml
   vars:
     description: "shell prompt colors and text"
