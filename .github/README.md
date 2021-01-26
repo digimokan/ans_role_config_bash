@@ -51,7 +51,7 @@ Ansible role to configure bash for interactive use.
      connection: local
      tasks:
        - name: "Set up bash for interactive use"
-         include_role:
+         ansible.builtin.include_role:
            name: ans_role_config_bash
          vars:
            user_name: "admin"

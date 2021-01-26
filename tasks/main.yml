@@ -1,9 +1,9 @@
 - name: "Run dependency-role: ans-role-config-shell"
-  include_tasks: run_config_shell_role.yml
+  ansible.builtin.include_tasks: run_config_shell_role.yml
 
 - name: "Configure bash prompt"
-  include_tasks: config_prompt.yml
+  ansible.builtin.include_tasks: config_prompt.yml
 
 - name: "Configure bash history"
-  include_tasks: config_history.yml
+  ansible.builtin.include_tasks: config_history.yml
 
