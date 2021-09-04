@@ -12,8 +12,3 @@ galaxy_info:
     - shell
     - bash
 
-dependencies:
-  - src: https://github.com/digimokan/ans_role_config_shell
-    tags:
-      - never
-

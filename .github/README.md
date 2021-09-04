@@ -8,6 +8,7 @@ Ansible role to configure bash for interactive use.
 ## Table Of Contents
 
 * [Purpose](#purpose)
+* [Requirements](#requirements)
 * [Supported Operating Systems](#supported-operating-systems)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
@@ -19,6 +20,11 @@ Ansible role to configure bash for interactive use.
 
 * Configure bash prompt, colors, and behavior.
 * Do not change which shell is currently set as user's _login_ shell.
+
+## Requirements
+
+* Main [ans_role_config_shell](https://github.com/digimokan/ans_role_config_shell)
+  role has already been run, for `user_name`.
 
 ## Supported Operating Systems
 
