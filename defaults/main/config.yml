@@ -1,0 +1,8 @@
+# number of lines to keep in shell history
+num_history_lines: 10000
+
+# define a list of command aliases for the bash shell
+command_aliases: []
+# command_aliases:
+#   - { entry: "newsboat='newsboat --quiet '"", descrip: 'silence newsboat startup warnings' }
+

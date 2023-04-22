@@ -1,0 +1,7 @@
+- name: "Install 'bash' package"
+  ansible.builtin.package:
+    name: 'bash'
+    state: present
+  become: true
+  become_user: root
+

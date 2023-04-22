@@ -1,0 +1,3 @@
+# path to main bash config file, run for all interactive bash shells
+bash_main_config_file_path: "/home/{{ user_name }}/.bashrc"
+

@@ -1,6 +1,6 @@
-- name: "Configure bash prompt"
-  ansible.builtin.include_tasks: config_prompt.yml
+- name: "Install bash shell"
+  ansible.builtin.include_tasks: install/main.yml
 
-- name: "Configure bash history"
-  ansible.builtin.include_tasks: config_history.yml
+- name: "Configure main bash shell interactive config file"
+  ansible.builtin.include_tasks: config/main.yml
 

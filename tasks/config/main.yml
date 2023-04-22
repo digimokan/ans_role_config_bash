@@ -1,0 +1,10 @@
+- name: "Config main bash interactive config file '{{ bash_main_config_file_path }}'"
+  ansible.builtin.template:
+    dest: "{{ bash_main_config_file_path }}"
+    src: "fish_main.j2"
+    owner: "{{ user_name }}"
+    mode: '644'
+    force: yes
+  become: true
+  become_user: root
+

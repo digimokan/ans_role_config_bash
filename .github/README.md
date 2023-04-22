@@ -8,27 +8,23 @@ Ansible role to configure bash for interactive use.
 ## Table Of Contents
 
 * [Purpose](#purpose)
-* [Requirements](#requirements)
 * [Supported Operating Systems](#supported-operating-systems)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
 * [Role Options](#role-options)
-* [Role Dependencies](#role-dependencies)
 * [Contributing](#contributing)
 
 ## Purpose
 
-* Configure bash prompt, colors, and behavior.
-* Do not change which shell is currently set as user's _login_ shell.
-
-## Requirements
-
-* Main [ans_role_config_shell](https://github.com/digimokan/ans_role_config_shell)
-  role has already been run, for `user_name`.
+* Configure bash colorized shell prompt and cmd-history-saving.
+* Add optional bash user-defined command aliases.
+* NOTE: for login shell config, see [ans_role_config_shell](https://github.com/digimokan/ans_role_config_shell).
 
 ## Supported Operating Systems
 
+* Ubuntu.
 * Arch Linux.
+* FreeBSD.
 
 ## Quick Start
 
@@ -72,10 +68,6 @@ See the role `defaults` file, for overridable vars:
 Define these _required_ vars for the role:
 
   * `user_name`: user to configure bash for
-
-## Role Dependencies
-
-* [ans_role_config_shell](https://github.com/digimokan/ans_role_config_shell)
 
 ## Contributing
 
